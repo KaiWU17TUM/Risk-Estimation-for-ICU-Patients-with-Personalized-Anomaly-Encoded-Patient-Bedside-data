@@ -7,7 +7,7 @@ To run the code, you need to
 - download the database;
 - follow this [tutorial](https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iv/buildmimic/postgres) to load MIMIC-IV into PostgreSQL database;
 - run [notebooks/generate_all_mimic_dataset.ipynb](https://github.com/KaiWU17TUM/Risk-Estimation-for-ICU-Patients-with-Personalized-Anomaly-Encoded-Patient-Bedside-data/blob/main/notebooks/generate_all_mimic_dataset.ipynb) to read and save relevant data from the database;
-- run [src/data_prep.py](https://github.com/KaiWU17TUM/Risk-Estimation-for-ICU-Patients-with-Personalized-Anomaly-Encoded-Patient-Bedside-data/blob/main/src/data_prep.py) to generate temporally-aligned 48H data samples in raw and encoded format.
+- run [src/data_prep.py](https://github.com/KaiWU17TUM/Risk-Estimation-for-ICU-Patients-with-Personalized-Anomaly-Encoded-Patient-Bedside-data/blob/main/src/data_prep.py) to generate temporally-aligned 48H data samples in raw and anomaly-encoded format.
 
 
 ### Train models
